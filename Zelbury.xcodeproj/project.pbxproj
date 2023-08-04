@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		DDE2DB522A7D298C00E8DB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */; };
 		DDE2DB542A7D298C00E8DB1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */; };
-		DDE2DB562A7D298C00E8DB1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB552A7D298C00E8DB1A /* ViewController.swift */; };
+		DDE2DB562A7D298C00E8DB1A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB552A7D298C00E8DB1A /* WelcomeViewController.swift */; };
 		DDE2DB592A7D298C00E8DB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB572A7D298C00E8DB1A /* Main.storyboard */; };
 		DDE2DB5B2A7D298D00E8DB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB5A2A7D298D00E8DB1A /* Assets.xcassets */; };
 		DDE2DB5E2A7D298D00E8DB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB5C2A7D298D00E8DB1A /* LaunchScreen.storyboard */; };
 		DDE2DB692A7D298D00E8DB1A /* ZelburyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB682A7D298D00E8DB1A /* ZelburyTests.swift */; };
 		DDE2DB732A7D298D00E8DB1A /* ZelburyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB722A7D298D00E8DB1A /* ZelburyUITests.swift */; };
 		DDE2DB752A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */; };
+		DDE2DB852A7D2BC000E8DB1A /* backgroundVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB842A7D2BC000E8DB1A /* backgroundVideo.mp4 */; };
+		DDE2DB892A7D331600E8DB1A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB882A7D331600E8DB1A /* LoginViewController.swift */; };
+		DDE2DB8B2A7D332800E8DB1A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB8A2A7D332800E8DB1A /* RegisterViewController.swift */; };
+		DDE2DB8D2A7D333300E8DB1A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB8C2A7D333300E8DB1A /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		DDE2DB4E2A7D298C00E8DB1A /* Zelbury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelbury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDE2DB552A7D298C00E8DB1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDE2DB552A7D298C00E8DB1A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		DDE2DB582A7D298C00E8DB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDE2DB5A2A7D298D00E8DB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDE2DB5D2A7D298D00E8DB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		DDE2DB6E2A7D298D00E8DB1A /* ZelburyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZelburyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE2DB722A7D298D00E8DB1A /* ZelburyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelburyUITests.swift; sourceTree = "<group>"; };
 		DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelburyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDE2DB842A7D2BC000E8DB1A /* backgroundVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundVideo.mp4; sourceTree = "<group>"; };
+		DDE2DB882A7D331600E8DB1A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DDE2DB8A2A7D332800E8DB1A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DDE2DB8C2A7D333300E8DB1A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,13 @@
 			children = (
 				DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */,
 				DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */,
-				DDE2DB552A7D298C00E8DB1A /* ViewController.swift */,
-				DDE2DB572A7D298C00E8DB1A /* Main.storyboard */,
+				DDE2DB832A7D29BD00E8DB1A /* Model */,
+				DDE2DB812A7D29A900E8DB1A /* View */,
+				DDE2DB822A7D29B100E8DB1A /* Controller */,
 				DDE2DB5A2A7D298D00E8DB1A /* Assets.xcassets */,
 				DDE2DB5C2A7D298D00E8DB1A /* LaunchScreen.storyboard */,
 				DDE2DB5F2A7D298D00E8DB1A /* Info.plist */,
+				DDE2DB842A7D2BC000E8DB1A /* backgroundVideo.mp4 */,
 			);
 			path = Zelbury;
 			sourceTree = "<group>";
@@ -125,6 +135,32 @@
 				DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */,
 			);
 			path = ZelburyUITests;
+			sourceTree = "<group>";
+		};
+		DDE2DB812A7D29A900E8DB1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDE2DB572A7D298C00E8DB1A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDE2DB822A7D29B100E8DB1A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDE2DB552A7D298C00E8DB1A /* WelcomeViewController.swift */,
+				DDE2DB882A7D331600E8DB1A /* LoginViewController.swift */,
+				DDE2DB8A2A7D332800E8DB1A /* RegisterViewController.swift */,
+				DDE2DB8C2A7D333300E8DB1A /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDE2DB832A7D29BD00E8DB1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE2DB5E2A7D298D00E8DB1A /* LaunchScreen.storyboard in Resources */,
+				DDE2DB852A7D2BC000E8DB1A /* backgroundVideo.mp4 in Resources */,
 				DDE2DB5B2A7D298D00E8DB1A /* Assets.xcassets in Resources */,
 				DDE2DB592A7D298C00E8DB1A /* Main.storyboard in Resources */,
 			);
@@ -258,8 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE2DB562A7D298C00E8DB1A /* ViewController.swift in Sources */,
+				DDE2DB892A7D331600E8DB1A /* LoginViewController.swift in Sources */,
+				DDE2DB8B2A7D332800E8DB1A /* RegisterViewController.swift in Sources */,
+				DDE2DB562A7D298C00E8DB1A /* WelcomeViewController.swift in Sources */,
 				DDE2DB522A7D298C00E8DB1A /* AppDelegate.swift in Sources */,
+				DDE2DB8D2A7D333300E8DB1A /* ChatViewController.swift in Sources */,
 				DDE2DB542A7D298C00E8DB1A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
