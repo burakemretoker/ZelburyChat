@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE2DB522A7D298C00E8DB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */; };
+		DDE2DB542A7D298C00E8DB1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */; };
+		DDE2DB562A7D298C00E8DB1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB552A7D298C00E8DB1A /* ViewController.swift */; };
+		DDE2DB592A7D298C00E8DB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB572A7D298C00E8DB1A /* Main.storyboard */; };
+		DDE2DB5B2A7D298D00E8DB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB5A2A7D298D00E8DB1A /* Assets.xcassets */; };
+		DDE2DB5E2A7D298D00E8DB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB5C2A7D298D00E8DB1A /* LaunchScreen.storyboard */; };
+		DDE2DB692A7D298D00E8DB1A /* ZelburyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB682A7D298D00E8DB1A /* ZelburyTests.swift */; };
+		DDE2DB732A7D298D00E8DB1A /* ZelburyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB722A7D298D00E8DB1A /* ZelburyUITests.swift */; };
+		DDE2DB752A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE2DB652A7D298D00E8DB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE2DB462A7D298C00E8DB1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE2DB4D2A7D298C00E8DB1A;
+			remoteInfo = Zelbury;
+		};
+		DDE2DB6F2A7D298D00E8DB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE2DB462A7D298C00E8DB1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE2DB4D2A7D298C00E8DB1A;
+			remoteInfo = Zelbury;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDE2DB4E2A7D298C00E8DB1A /* Zelbury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelbury.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DDE2DB552A7D298C00E8DB1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDE2DB582A7D298C00E8DB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDE2DB5A2A7D298D00E8DB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDE2DB5D2A7D298D00E8DB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDE2DB5F2A7D298D00E8DB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDE2DB642A7D298D00E8DB1A /* ZelburyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZelburyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE2DB682A7D298D00E8DB1A /* ZelburyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelburyTests.swift; sourceTree = "<group>"; };
+		DDE2DB6E2A7D298D00E8DB1A /* ZelburyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZelburyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE2DB722A7D298D00E8DB1A /* ZelburyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelburyUITests.swift; sourceTree = "<group>"; };
+		DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelburyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE2DB4B2A7D298C00E8DB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE2DB612A7D298D00E8DB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE2DB6B2A7D298D00E8DB1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE2DB452A7D298C00E8DB1A = {
+			isa = PBXGroup;
+			children = (
+				DDE2DB502A7D298C00E8DB1A /* Zelbury */,
+				DDE2DB672A7D298D00E8DB1A /* ZelburyTests */,
+				DDE2DB712A7D298D00E8DB1A /* ZelburyUITests */,
+				DDE2DB4F2A7D298C00E8DB1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE2DB4F2A7D298C00E8DB1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE2DB4E2A7D298C00E8DB1A /* Zelbury.app */,
+				DDE2DB642A7D298D00E8DB1A /* ZelburyTests.xctest */,
+				DDE2DB6E2A7D298D00E8DB1A /* ZelburyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE2DB502A7D298C00E8DB1A /* Zelbury */ = {
+			isa = PBXGroup;
+			children = (
+				DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */,
+				DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */,
+				DDE2DB552A7D298C00E8DB1A /* ViewController.swift */,
+				DDE2DB572A7D298C00E8DB1A /* Main.storyboard */,
+				DDE2DB5A2A7D298D00E8DB1A /* Assets.xcassets */,
+				DDE2DB5C2A7D298D00E8DB1A /* LaunchScreen.storyboard */,
+				DDE2DB5F2A7D298D00E8DB1A /* Info.plist */,
+			);
+			path = Zelbury;
+			sourceTree = "<group>";
+		};
+		DDE2DB672A7D298D00E8DB1A /* ZelburyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE2DB682A7D298D00E8DB1A /* ZelburyTests.swift */,
+			);
+			path = ZelburyTests;
+			sourceTree = "<group>";
+		};
+		DDE2DB712A7D298D00E8DB1A /* ZelburyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE2DB722A7D298D00E8DB1A /* ZelburyUITests.swift */,
+				DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */,
+			);
+			path = ZelburyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE2DB4D2A7D298C00E8DB1A /* Zelbury */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE2DB782A7D298D00E8DB1A /* Build configuration list for PBXNativeTarget "Zelbury" */;
+			buildPhases = (
+				DDE2DB4A2A7D298C00E8DB1A /* Sources */,
+				DDE2DB4B2A7D298C00E8DB1A /* Frameworks */,
+				DDE2DB4C2A7D298C00E8DB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zelbury;
+			productName = Zelbury;
+			productReference = DDE2DB4E2A7D298C00E8DB1A /* Zelbury.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDE2DB632A7D298D00E8DB1A /* ZelburyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE2DB7B2A7D298D00E8DB1A /* Build configuration list for PBXNativeTarget "ZelburyTests" */;
+			buildPhases = (
+				DDE2DB602A7D298D00E8DB1A /* Sources */,
+				DDE2DB612A7D298D00E8DB1A /* Frameworks */,
+				DDE2DB622A7D298D00E8DB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE2DB662A7D298D00E8DB1A /* PBXTargetDependency */,
+			);
+			name = ZelburyTests;
+			productName = ZelburyTests;
+			productReference = DDE2DB642A7D298D00E8DB1A /* ZelburyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDE2DB6D2A7D298D00E8DB1A /* ZelburyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE2DB7E2A7D298D00E8DB1A /* Build configuration list for PBXNativeTarget "ZelburyUITests" */;
+			buildPhases = (
+				DDE2DB6A2A7D298D00E8DB1A /* Sources */,
+				DDE2DB6B2A7D298D00E8DB1A /* Frameworks */,
+				DDE2DB6C2A7D298D00E8DB1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE2DB702A7D298D00E8DB1A /* PBXTargetDependency */,
+			);
+			name = ZelburyUITests;
+			productName = ZelburyUITests;
+			productReference = DDE2DB6E2A7D298D00E8DB1A /* ZelburyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE2DB462A7D298C00E8DB1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DDE2DB4D2A7D298C00E8DB1A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DDE2DB632A7D298D00E8DB1A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDE2DB4D2A7D298C00E8DB1A;
+					};
+					DDE2DB6D2A7D298D00E8DB1A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DDE2DB4D2A7D298C00E8DB1A;
+					};
+				};
+			};
+			buildConfigurationList = DDE2DB492A7D298C00E8DB1A /* Build configuration list for PBXProject "Zelbury" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDE2DB452A7D298C00E8DB1A;
+			productRefGroup = DDE2DB4F2A7D298C00E8DB1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE2DB4D2A7D298C00E8DB1A /* Zelbury */,
+				DDE2DB632A7D298D00E8DB1A /* ZelburyTests */,
+				DDE2DB6D2A7D298D00E8DB1A /* ZelburyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE2DB4C2A7D298C00E8DB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE2DB5E2A7D298D00E8DB1A /* LaunchScreen.storyboard in Resources */,
+				DDE2DB5B2A7D298D00E8DB1A /* Assets.xcassets in Resources */,
+				DDE2DB592A7D298C00E8DB1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE2DB622A7D298D00E8DB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE2DB6C2A7D298D00E8DB1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE2DB4A2A7D298C00E8DB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE2DB562A7D298C00E8DB1A /* ViewController.swift in Sources */,
+				DDE2DB522A7D298C00E8DB1A /* AppDelegate.swift in Sources */,
+				DDE2DB542A7D298C00E8DB1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE2DB602A7D298D00E8DB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE2DB692A7D298D00E8DB1A /* ZelburyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE2DB6A2A7D298D00E8DB1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE2DB752A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift in Sources */,
+				DDE2DB732A7D298D00E8DB1A /* ZelburyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE2DB662A7D298D00E8DB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE2DB4D2A7D298C00E8DB1A /* Zelbury */;
+			targetProxy = DDE2DB652A7D298D00E8DB1A /* PBXContainerItemProxy */;
+		};
+		DDE2DB702A7D298D00E8DB1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE2DB4D2A7D298C00E8DB1A /* Zelbury */;
+			targetProxy = DDE2DB6F2A7D298D00E8DB1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE2DB572A7D298C00E8DB1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE2DB582A7D298C00E8DB1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDE2DB5C2A7D298D00E8DB1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE2DB5D2A7D298D00E8DB1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE2DB762A7D298D00E8DB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDE2DB772A7D298D00E8DB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE2DB792A7D298D00E8DB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S93TB9WZ8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zelbury/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zelbury.Zelbury;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE2DB7A2A7D298D00E8DB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S93TB9WZ8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zelbury/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zelbury.Zelbury;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDE2DB7C2A7D298D00E8DB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S93TB9WZ8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zelbury.ZelburyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zelbury.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zelbury";
+			};
+			name = Debug;
+		};
+		DDE2DB7D2A7D298D00E8DB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S93TB9WZ8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zelbury.ZelburyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zelbury.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zelbury";
+			};
+			name = Release;
+		};
+		DDE2DB7F2A7D298D00E8DB1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S93TB9WZ8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zelbury.ZelburyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zelbury;
+			};
+			name = Debug;
+		};
+		DDE2DB802A7D298D00E8DB1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S93TB9WZ8T;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.zelbury.ZelburyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zelbury;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE2DB492A7D298C00E8DB1A /* Build configuration list for PBXProject "Zelbury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE2DB762A7D298D00E8DB1A /* Debug */,
+				DDE2DB772A7D298D00E8DB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE2DB782A7D298D00E8DB1A /* Build configuration list for PBXNativeTarget "Zelbury" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE2DB792A7D298D00E8DB1A /* Debug */,
+				DDE2DB7A2A7D298D00E8DB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE2DB7B2A7D298D00E8DB1A /* Build configuration list for PBXNativeTarget "ZelburyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE2DB7C2A7D298D00E8DB1A /* Debug */,
+				DDE2DB7D2A7D298D00E8DB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE2DB7E2A7D298D00E8DB1A /* Build configuration list for PBXNativeTarget "ZelburyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE2DB7F2A7D298D00E8DB1A /* Debug */,
+				DDE2DB802A7D298D00E8DB1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE2DB462A7D298C00E8DB1A /* Project object */;
+}
