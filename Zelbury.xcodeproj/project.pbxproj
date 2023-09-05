@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD36F75C2A9D13A9005B796D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD36F75B2A9D13A9005B796D /* GoogleService-Info.plist */; };
+		DD36F75F2A9D1442005B796D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DD36F75E2A9D1442005B796D /* FirebaseAnalytics */; };
+		DD36F7612A9D1442005B796D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DD36F7602A9D1442005B796D /* FirebaseAuth */; };
+		DD36F7632A9D1442005B796D /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DD36F7622A9D1442005B796D /* FirebaseFirestore */; };
+		DD374A712A9E47E40082AC59 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD374A702A9E47E40082AC59 /* Message.swift */; };
+		DD40DDC02A9A451900FBB6BA /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40DDBF2A9A451900FBB6BA /* K.swift */; };
+		DD40DDC32A9A47D600FBB6BA /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD40DDC12A9A47D600FBB6BA /* MessageCell.swift */; };
+		DD40DDC42A9A47D600FBB6BA /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD40DDC22A9A47D600FBB6BA /* MessageCell.xib */; };
+		DD5874692A9928AE00AC9B10 /* swift-video-generator in Frameworks */ = {isa = PBXBuildFile; productRef = DD5874682A9928AE00AC9B10 /* swift-video-generator */; };
+		DDD3E9162AA3499200396770 /* PresentForNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3E9152AA3499200396770 /* PresentForNameController.swift */; };
+		DDD3E9182AA34FF700396770 /* AskNameStroyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDD3E9172AA34FF700396770 /* AskNameStroyboard.storyboard */; };
 		DDE2DB522A7D298C00E8DB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */; };
 		DDE2DB542A7D298C00E8DB1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */; };
 		DDE2DB562A7D298C00E8DB1A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB552A7D298C00E8DB1A /* WelcomeViewController.swift */; };
 		DDE2DB592A7D298C00E8DB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB572A7D298C00E8DB1A /* Main.storyboard */; };
 		DDE2DB5B2A7D298D00E8DB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB5A2A7D298D00E8DB1A /* Assets.xcassets */; };
 		DDE2DB5E2A7D298D00E8DB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB5C2A7D298D00E8DB1A /* LaunchScreen.storyboard */; };
-		DDE2DB692A7D298D00E8DB1A /* ZelburyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB682A7D298D00E8DB1A /* ZelburyTests.swift */; };
-		DDE2DB732A7D298D00E8DB1A /* ZelburyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB722A7D298D00E8DB1A /* ZelburyUITests.swift */; };
-		DDE2DB752A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */; };
 		DDE2DB852A7D2BC000E8DB1A /* backgroundVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = DDE2DB842A7D2BC000E8DB1A /* backgroundVideo.mp4 */; };
 		DDE2DB892A7D331600E8DB1A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB882A7D331600E8DB1A /* LoginViewController.swift */; };
 		DDE2DB8B2A7D332800E8DB1A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB8A2A7D332800E8DB1A /* RegisterViewController.swift */; };
 		DDE2DB8D2A7D333300E8DB1A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2DB8C2A7D333300E8DB1A /* ChatViewController.swift */; };
+		DDF8B3712AA1EA6E00F0D7B7 /* AlertForError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF8B3702AA1EA6E00F0D7B7 /* AlertForError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD332F762A9F905B0013007E /* Zelbury.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Zelbury.entitlements; sourceTree = "<group>"; };
+		DD36F75B2A9D13A9005B796D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD374A702A9E47E40082AC59 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		DD40DDBF2A9A451900FBB6BA /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		DD40DDC12A9A47D600FBB6BA /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		DD40DDC22A9A47D600FBB6BA /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		DDD3E9152AA3499200396770 /* PresentForNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentForNameController.swift; sourceTree = "<group>"; };
+		DDD3E9172AA34FF700396770 /* AskNameStroyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AskNameStroyboard.storyboard; sourceTree = "<group>"; };
 		DDE2DB4E2A7D298C00E8DB1A /* Zelbury.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zelbury.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,14 +66,12 @@
 		DDE2DB5D2A7D298D00E8DB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDE2DB5F2A7D298D00E8DB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDE2DB642A7D298D00E8DB1A /* ZelburyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZelburyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDE2DB682A7D298D00E8DB1A /* ZelburyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelburyTests.swift; sourceTree = "<group>"; };
 		DDE2DB6E2A7D298D00E8DB1A /* ZelburyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZelburyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDE2DB722A7D298D00E8DB1A /* ZelburyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelburyUITests.swift; sourceTree = "<group>"; };
-		DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZelburyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DDE2DB842A7D2BC000E8DB1A /* backgroundVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backgroundVideo.mp4; sourceTree = "<group>"; };
 		DDE2DB882A7D331600E8DB1A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DDE2DB8A2A7D332800E8DB1A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		DDE2DB8C2A7D333300E8DB1A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		DDF8B3702AA1EA6E00F0D7B7 /* AlertForError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertForError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD36F75F2A9D1442005B796D /* FirebaseAnalytics in Frameworks */,
+				DD36F7632A9D1442005B796D /* FirebaseFirestore in Frameworks */,
+				DD36F7612A9D1442005B796D /* FirebaseAuth in Frameworks */,
+				DD5874692A9928AE00AC9B10 /* swift-video-generator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				DDE2DB502A7D298C00E8DB1A /* Zelbury */,
-				DDE2DB672A7D298D00E8DB1A /* ZelburyTests */,
-				DDE2DB712A7D298D00E8DB1A /* ZelburyUITests */,
 				DDE2DB4F2A7D298C00E8DB1A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,40 +124,29 @@
 		DDE2DB502A7D298C00E8DB1A /* Zelbury */ = {
 			isa = PBXGroup;
 			children = (
+				DD332F762A9F905B0013007E /* Zelbury.entitlements */,
 				DDE2DB512A7D298C00E8DB1A /* AppDelegate.swift */,
 				DDE2DB532A7D298C00E8DB1A /* SceneDelegate.swift */,
+				DD40DDBF2A9A451900FBB6BA /* K.swift */,
 				DDE2DB832A7D29BD00E8DB1A /* Model */,
 				DDE2DB812A7D29A900E8DB1A /* View */,
 				DDE2DB822A7D29B100E8DB1A /* Controller */,
 				DDE2DB5A2A7D298D00E8DB1A /* Assets.xcassets */,
 				DDE2DB5C2A7D298D00E8DB1A /* LaunchScreen.storyboard */,
 				DDE2DB5F2A7D298D00E8DB1A /* Info.plist */,
+				DD36F75B2A9D13A9005B796D /* GoogleService-Info.plist */,
 				DDE2DB842A7D2BC000E8DB1A /* backgroundVideo.mp4 */,
 			);
 			path = Zelbury;
-			sourceTree = "<group>";
-		};
-		DDE2DB672A7D298D00E8DB1A /* ZelburyTests */ = {
-			isa = PBXGroup;
-			children = (
-				DDE2DB682A7D298D00E8DB1A /* ZelburyTests.swift */,
-			);
-			path = ZelburyTests;
-			sourceTree = "<group>";
-		};
-		DDE2DB712A7D298D00E8DB1A /* ZelburyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DDE2DB722A7D298D00E8DB1A /* ZelburyUITests.swift */,
-				DDE2DB742A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift */,
-			);
-			path = ZelburyUITests;
 			sourceTree = "<group>";
 		};
 		DDE2DB812A7D29A900E8DB1A /* View */ = {
 			isa = PBXGroup;
 			children = (
 				DDE2DB572A7D298C00E8DB1A /* Main.storyboard */,
+				DD40DDC12A9A47D600FBB6BA /* MessageCell.swift */,
+				DD40DDC22A9A47D600FBB6BA /* MessageCell.xib */,
+				DDD3E9172AA34FF700396770 /* AskNameStroyboard.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +158,7 @@
 				DDE2DB882A7D331600E8DB1A /* LoginViewController.swift */,
 				DDE2DB8A2A7D332800E8DB1A /* RegisterViewController.swift */,
 				DDE2DB8C2A7D333300E8DB1A /* ChatViewController.swift */,
+				DDD3E9152AA3499200396770 /* PresentForNameController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,6 +166,8 @@
 		DDE2DB832A7D29BD00E8DB1A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DD374A702A9E47E40082AC59 /* Message.swift */,
+				DDF8B3702AA1EA6E00F0D7B7 /* AlertForError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -179,6 +188,12 @@
 			dependencies = (
 			);
 			name = Zelbury;
+			packageProductDependencies = (
+				DD5874682A9928AE00AC9B10 /* swift-video-generator */,
+				DD36F75E2A9D1442005B796D /* FirebaseAnalytics */,
+				DD36F7602A9D1442005B796D /* FirebaseAuth */,
+				DD36F7622A9D1442005B796D /* FirebaseFirestore */,
+			);
 			productName = Zelbury;
 			productReference = DDE2DB4E2A7D298C00E8DB1A /* Zelbury.app */;
 			productType = "com.apple.product-type.application";
@@ -251,6 +266,10 @@
 				Base,
 			);
 			mainGroup = DDE2DB452A7D298C00E8DB1A;
+			packageReferences = (
+				DD5874672A9928AE00AC9B10 /* XCRemoteSwiftPackageReference "swift-video-generator" */,
+				DD36F75D2A9D1442005B796D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DDE2DB4F2A7D298C00E8DB1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,10 +286,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD40DDC42A9A47D600FBB6BA /* MessageCell.xib in Resources */,
 				DDE2DB5E2A7D298D00E8DB1A /* LaunchScreen.storyboard in Resources */,
 				DDE2DB852A7D2BC000E8DB1A /* backgroundVideo.mp4 in Resources */,
 				DDE2DB5B2A7D298D00E8DB1A /* Assets.xcassets in Resources */,
+				DDD3E9182AA34FF700396770 /* AskNameStroyboard.storyboard in Resources */,
 				DDE2DB592A7D298C00E8DB1A /* Main.storyboard in Resources */,
+				DD36F75C2A9D13A9005B796D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +318,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE2DB892A7D331600E8DB1A /* LoginViewController.swift in Sources */,
+				DDD3E9162AA3499200396770 /* PresentForNameController.swift in Sources */,
+				DD40DDC32A9A47D600FBB6BA /* MessageCell.swift in Sources */,
+				DD40DDC02A9A451900FBB6BA /* K.swift in Sources */,
+				DD374A712A9E47E40082AC59 /* Message.swift in Sources */,
+				DDF8B3712AA1EA6E00F0D7B7 /* AlertForError.swift in Sources */,
 				DDE2DB8B2A7D332800E8DB1A /* RegisterViewController.swift in Sources */,
 				DDE2DB562A7D298C00E8DB1A /* WelcomeViewController.swift in Sources */,
 				DDE2DB522A7D298C00E8DB1A /* AppDelegate.swift in Sources */,
@@ -308,7 +335,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE2DB692A7D298D00E8DB1A /* ZelburyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE2DB752A7D298D00E8DB1A /* ZelburyUITestsLaunchTests.swift in Sources */,
-				DDE2DB732A7D298D00E8DB1A /* ZelburyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,9 +499,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zelbury/Zelbury.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S93TB9WZ8T;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Zelbury/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -492,6 +518,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.zelbury.Zelbury;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -503,9 +530,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Zelbury/Zelbury.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S93TB9WZ8T;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Zelbury/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -520,6 +549,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.zelbury.Zelbury;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -642,6 +672,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DD36F75D2A9D1442005B796D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		DD5874672A9928AE00AC9B10 /* XCRemoteSwiftPackageReference "swift-video-generator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:dev-labs-bg/swift-video-generator.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DD36F75E2A9D1442005B796D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD36F75D2A9D1442005B796D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DD36F7602A9D1442005B796D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD36F75D2A9D1442005B796D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DD36F7622A9D1442005B796D /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD36F75D2A9D1442005B796D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DD5874682A9928AE00AC9B10 /* swift-video-generator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD5874672A9928AE00AC9B10 /* XCRemoteSwiftPackageReference "swift-video-generator" */;
+			productName = "swift-video-generator";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DDE2DB462A7D298C00E8DB1A /* Project object */;
 }

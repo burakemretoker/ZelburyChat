@@ -8,6 +8,8 @@
 import UIKit
 import AVKit
 import AVFoundation
+import Foundation
+
 
 class ViewController: UIViewController {
     
@@ -22,6 +24,17 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        self.playBackgroundVideo()
+        
+        loginButton.layer.cornerRadius = loginButton.frame.size.height / 5
+        loginButton.alpha = 0.85
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.isHidden = true
+    }
+    
+    private func playBackgroundVideo() {
         
         let theURL = Bundle.main.url(forResource:"../backgroundVideo", withExtension: "mp4")
         
@@ -34,22 +47,22 @@ class ViewController: UIViewController {
         avPlayerLayer.frame = view.layer.bounds
         view.backgroundColor = .clear
         view.layer.insertSublayer(avPlayerLayer, at: 0)
+
         
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(playerItemDidReachEnd(notification:)),
                                                name: .AVPlayerItemDidPlayToEndTime,
                                                object: avPlayer.currentItem)
         
-        loginButton.layer.cornerRadius = loginButton.frame.size.height / 5
-        loginButton.alpha = 0.85
     }
     
     
     
     @objc func playerItemDidReachEnd(notification: Notification) {
-        let p: AVPlayerItem = notification.object as! AVPlayerItem
-        p.seek(to: .zero)
-    }
+        let player: AVPlayerItem = notification.object as! AVPlayerItem
+        player.seek(to: .zero, toleranceBefore: .zero, toleranceAfter: .zero, completionHandler: nil)
+      }
+
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
